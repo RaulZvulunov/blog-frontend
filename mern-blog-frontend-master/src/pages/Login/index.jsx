@@ -16,10 +16,10 @@ export const Login = () => {
         className={styles.field}
         label="E-Mail"
         error
-        helperText="Неверно указана почта"
+        helperText="Wrong Email"
         fullWidth
       />
-      <TextField className={styles.field} label="Пароль" fullWidth />
+      <TextField className={styles.field} label="Password" fullWidth />
       <Button size="large" variant="contained" fullWidth>
       Login
       </Button>
